@@ -1,1 +1,1 @@
-# Air-Pollution-Monitoring-System
+This Project is made with the use of ESP32, DHT11 Sensor and MQ-135 sensor, where DHT11 senses the Temperature and Humidity in the Environment and MQ-135 detects the quality of the Air by detecting harmful gases like Ammonia,sulphur,CO2 etc.All the data from the devices is sent to Blynk,which is a IoT software platform for connecting devices to the cloud, and we can access the real-time data from the sensors on Blynk Web-Dashboard as well as Blynk App. 
