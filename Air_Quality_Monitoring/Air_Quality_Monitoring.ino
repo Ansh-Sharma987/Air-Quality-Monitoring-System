@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPL338Y1kbnx"
-#define BLYNK_TEMPLATE_NAME "Air Quality Monitoring"
-#define BLYNK_AUTH_TOKEN "6kGSVculRStLn5JW-pr9F3vIITfs4JVD"
+#define BLYNK_TEMPLATE_ID " "//add your template id
+#define BLYNK_TEMPLATE_NAME " "//add your template name
+#define BLYNK_AUTH_TOKEN " "//add your blynk auth token
 #define BLYNK_PRINT Serial
 #include <WiFiClient.h>
 #include <BlynkSimpleEsp32.h>
@@ -10,8 +10,8 @@ int sensor_input=34;
 
 char auth[] = BLYNK_AUTH_TOKEN;
 
-char ssid[] = "realme 7i"; // type your wifi nano 
-char pass[] = "51f44a7a6327"; // type your wifi password
+char ssid[] = "  "; // type your wifi nano 
+char pass[] = "  "; // type your wifi password
 
 BlynkTimer timer;
 
